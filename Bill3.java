@@ -8,7 +8,6 @@ public class Bill3 {
 		// enter the bill
 		int devidedpayment = Integer.parseInt(args[3]);
 		devidedpayment = (int)Math.ceil(devidedpayment/3.0);
-		System.out.println ("Dear " + name1 + ", " + name2 + ", and "+ name3 + ": pay " + (double)devidedpayment + " Shekels each");
-	    // 
+		System.out.println ("Dear " + name3 + ", " + name2 + ", and "+ name1 + ": pay " + (double)devidedpayment + " Shekels each");
 	}
 }
