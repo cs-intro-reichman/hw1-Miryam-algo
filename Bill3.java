@@ -1,8 +1,13 @@
 // Splits a restaurant bill evenly among three diners.
 public class Bill3 {
 	public static void main(String[] args) {
-		// To get you started, here is the first line in the program:
+		// enter 3 names
 	    String name1 = args[0];
-	    // Replace this comment with the rest of your code   
+		String name2 = args[1];
+		String name3 = args[2];
+		// enter the bill
+		int devidedpayment = Integer.parseInt(args[3]);
+		devidedpayment = (int)Math.ceil(devidedpayment/3.0);
+		System.out.println ("Dear " + name3 + ", " + name2 + ", and "+ name1 + ": pay " + (double)devidedpayment + " Shekels each");
 	}
 }
